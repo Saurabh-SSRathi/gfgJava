@@ -1,6 +1,5 @@
 package array;
-
-public class Que1LargestElement {
+public class Que1M1LargestElement {
 
     static int arr[] = {12 ,2, 54, 12, 67};
 
@@ -17,4 +16,9 @@ public class Que1LargestElement {
     public static void main(String args[]) {
         System.out.println("Largest in given array is " + largest());
     }
+
+    /*Note:
+      Time Complexity: O(n), where n represents the size of the given array.
+      Auxiliary Space: O(1), no extra space is required, so it is a constant.
+     */
 }
