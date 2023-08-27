@@ -1,7 +1,7 @@
 package array;
 public class Que1M1LargestElement {
 
-    static int arr[] = {12 ,2, 54, 12, 67};
+    static int[] arr = {12 ,2, 54, 12, 67};
 
     static int largest() {
         int max = arr[0];
@@ -13,7 +13,7 @@ public class Que1M1LargestElement {
         return max;
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         System.out.println("Largest in given array is " + largest());
     }
 
