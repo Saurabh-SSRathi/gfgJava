@@ -15,7 +15,7 @@ public class Que1M3LargestElement {
     }
 
     /*Note:
-      Time Complexity: O(n), where n represents the size of the given array.
+      Time Complexity: O(n logn), where n represents the size of the given array.
       Auxiliary Space: O(1), no extra space is required, so it is a constant.
      */
 }
