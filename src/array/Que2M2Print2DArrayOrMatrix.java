@@ -1,13 +1,15 @@
+// Java program to print the elements of
+// a 2 D array or matrix using for-each
 package array;
 
-public class Que2M1Print2DArrayOrMatrix {
+public class Que2M2Print2DArrayOrMatrix {
     public static void print2DMatrix(int[][] mat) {
 
         // Loop through all rows
-        for (int i=0; i<mat.length; i++) {
+        for (int[] row : mat) {
             // Loop through all elements of current row
-            for (int j=0; j<mat[i].length; j++) {
-                System.out.print(mat[i][j] + " ");
+            for (int x : row) {
+                System.out.print(x + " ");
             }
         }
     }
