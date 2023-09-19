@@ -1,5 +1,5 @@
 // Java program to print the elements of
-// a 2 D array or matrix using for-each
+// a 2 D array or matrix using toString()
 package array;
 
 import java.util.Arrays;
@@ -9,7 +9,6 @@ public class Que2M3Print2DArrayOrMatrix {
 
         // Loop through all rows
         for (int[] row : mat) {
-            // Loop through all elements of current row
 
             // converting each row as string and then printing in a separate line
             System.out.println(Arrays.toString(row));
