@@ -27,3 +27,13 @@ public class Que6M1MatrixTranspose {
                 System.out.print(matrix[i][j] + " "); }
             System.out.println(); //Move to the next row
         } } }
+
+
+/*Original Matrix:
+1 1 1
+2 2 2
+3 3 3
+Transpose Matrix:
+1 2 3
+1 2 3
+1 2 3 */

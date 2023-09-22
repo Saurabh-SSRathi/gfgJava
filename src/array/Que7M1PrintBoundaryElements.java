@@ -1,6 +1,6 @@
 package array;
 
-public class Que7M1BoundaryElements {
+public class Que7M1PrintBoundaryElements {
 
     private void BoundaryElements(int[][] mat) {
         System.out.println("Input Matrix is: ");
@@ -26,7 +26,7 @@ public class Que7M1BoundaryElements {
         int mat[][] = {{1, 2, 3},
                        {4, 5, 6},
                        {7, 8, 9}};
-        Que7M1BoundaryElements que7M1BElem = new Que7M1BoundaryElements();
+        Que7M1PrintBoundaryElements que7M1BElem = new Que7M1PrintBoundaryElements();
         que7M1BElem.BoundaryElements(mat);
     }
 }
