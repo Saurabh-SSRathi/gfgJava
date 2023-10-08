@@ -1,3 +1,4 @@
+// Java Program to find maximum in arr[]
 package array;
 public class Que1M1LargestElement {
 
@@ -16,6 +17,8 @@ public class Que1M1LargestElement {
     public static void main(String[] args) {
         System.out.println("Largest in given array is " + largest());
     }
+
+    /* Output: Largest in given array is 67 */
 
     /*Note:
       Time Complexity: O(n), where n represents the size of the given array.

@@ -1,3 +1,5 @@
+// Java program to find maximum in
+// arr[] of size n
 package array;
 
 import java.util.Arrays;
