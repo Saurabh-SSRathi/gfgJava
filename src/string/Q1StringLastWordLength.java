@@ -13,8 +13,5 @@ public class Q1StringLastWordLength {
         System.out.println(strLength);
 
         String trim = str.trim();
-
-
-
     }
 }

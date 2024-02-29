@@ -6,6 +6,9 @@ public class Q3reverseWords {
 
         String str = "I.am.saurabh";
         String[] strArray = str.split("\\.");
+        for (String s : strArray) {
+            System.out.println(s);
+        }
 
         StringBuilder stringBuilder = new StringBuilder();
 

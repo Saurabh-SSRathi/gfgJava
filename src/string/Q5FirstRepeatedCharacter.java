@@ -17,6 +17,5 @@ public class Q5FirstRepeatedCharacter {
                 .orElse("");
 
         System.out.println(s);
-
     }
 }
